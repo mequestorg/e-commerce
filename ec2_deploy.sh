@@ -29,6 +29,6 @@ unzip e-commerce.zip
 
 # Move HTML app to the web server's document root
 # Move the contents of the extracted directory to the document root of Apache
-sudo mv * /var/www/html/
+sudo mv e-commerce/* /var/www/html/
 # Move all files and directories inside the 'profile-main' directory to '/var/www/html/',
 # which is the default document root for Apache HTTP Server.
